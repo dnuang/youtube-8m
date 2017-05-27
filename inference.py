@@ -198,8 +198,8 @@ def main(unused_argv):
     raise ValueError("'input_data_pattern' was not specified. "
       "Unable to continue with inference.")
 
-  inference(reader, FLAGS.checkpoint_file, FLAGS.train_dir, FLAGS.input_data_pattern,
-    FLAGS.output_file, FLAGS.batch_size, FLAGS.top_k)
+  # inference(reader, FLAGS.checkpoint_file, FLAGS.train_dir, FLAGS.input_data_pattern,
+    # FLAGS.output_file, FLAGS.batch_size, FLAGS.top_k)
 
 
 if __name__ == "__main__":
